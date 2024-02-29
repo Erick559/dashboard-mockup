@@ -8,8 +8,8 @@
 body{
     height:100vh;
     display:grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .sidebar{
@@ -22,6 +22,18 @@ body{
 
 .main-section{
     grid-area:2/2/3/3;
+    padding:20px;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap:10px;
+}
+
+.projects-section{
+    border:1px solid yellow;
+}
+
+.misc-section{
+    border:1px solid red;
 }
 
 .header,
