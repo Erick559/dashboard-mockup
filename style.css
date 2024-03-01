@@ -69,6 +69,95 @@ body{
 
 .header{
     grid-area:1/2/2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header .search-section,
+.header .upload-section{
+    display: flex;
+    align-items: center;
+    padding:10px 30px 10px 30px;
+}
+
+.header form{
+    flex:1;
+}
+
+.header input{
+    border-radius: 40px;
+    padding:5px;
+    border: none;
+    outline: none;
+    background: #E2E8F0;
+    width:70%;
+}
+
+.header label{
+    margin-right: 10px;
+}
+
+.header .user-section{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.header .user-section p,
+.header .user-section i{
+    font-size:20px;
+    font-weight: 700;
+}
+
+.header img{
+    width:40px;
+    height: 40px;
+    background:#F9CC14;
+    border-radius: 50%;
+    padding:5px;
+}
+
+.header .upload-section img{
+    width:60px;
+    height:60px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap:20px;
+}
+
+.user p{
+    font-size: 10px;
+}
+
+.user span{
+    font-size:20px;
+}
+
+.user p,
+.user span{
+    font-weight: 500;
+}
+
+.upload-buttons{
+    display:grid;
+    align-items:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+
+button{
+    padding:10px;
+    border-radius: 20px;
+    border: none;
+    width:100px;
+    background:#3492D4;
+    color:#ffff;
+    font-size:15px;
+    font-weight: 600;
 }
 
 .main-section{
