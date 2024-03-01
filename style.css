@@ -206,6 +206,24 @@ button{
     font-weight: 400;
     color:#7B7B7B;
 }
-.misc-section{
-    border:1px solid red;
+
+.misc-container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap:20px;
+}
+
+.announcements p{
+    font-size: 13px;
+}
+
+.misc-section .announcements,
+.misc-section .trending{
+   background: #ffff;
+   border-radius: 10px;
+   padding:20px;
+}
+
+.misc-section .trending{
+    border:1px solid orange;
 }
