@@ -10,7 +10,7 @@
 body{
     height:100vh;
     display:grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -86,10 +86,4 @@ body{
 
 .misc-section{
     border:1px solid red;
-}
-
-.header,
-.main-section,
-.sidebar{
-    border:2px solid black;
 }
