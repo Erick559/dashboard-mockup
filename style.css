@@ -165,14 +165,47 @@ button{
     padding:20px;
     display: grid;
     grid-template-columns:2fr 1fr;
-    gap:10px;
+    gap:20px;
     background:#E2E8F0;
 }
 
-.projects-section{
-    border:1px solid yellow;
+.projects-section p{
+   font-size:20px;
+   font-weight: 500;
 }
 
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows:200px;
+    gap:25px;
+}
+
+.card{
+    border-left: 9px solid #F0B428;
+    border-radius: 5px;
+    padding:15px;
+    background: #ffff;
+    overflow: auto;
+    display: grid;
+    gap:10px;
+}
+
+.card .card-footer{
+    justify-self: right;
+    display: flex;
+    gap:20px;
+}
+
+.projects-container .project-title,
+.projects-container .project-desc{
+    font-size:15px;
+}
+
+.projects-container .project-desc{
+    font-weight: 400;
+    color:#7B7B7B;
+}
 .misc-section{
     border:1px solid red;
 }
