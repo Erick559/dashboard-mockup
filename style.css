@@ -225,6 +225,8 @@ button{
    background: #ffff;
    border-radius: 5px;
    padding:20px;
+   height:295px;
+   overflow: auto;
 }
 
 .misc-section .title{
